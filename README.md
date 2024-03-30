@@ -1,8 +1,6 @@
 # S3 Lambda
 
 Lambda Function for Adding Encoding Tasks to the RabbitMQ Instance on CreateObject Event in AWS S3.
-> [!IMPORTANT]
-> Since we're using RabbitMQ's priority feature, The `x-max-priority` must be set to some reasonable number, like `5`, and it should also be passed in `channel.assertQueue()` for the consumer.
 
 # Hosting on AWS Lambda
 
